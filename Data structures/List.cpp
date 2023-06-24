@@ -279,8 +279,6 @@ int main()
 
     a.sort();
 
-    
-
     a.show();
 
     a.reverse();

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data structures.cpp">
+    <ClCompile Include="List.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
