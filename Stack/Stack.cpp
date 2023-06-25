@@ -65,6 +65,11 @@ public:
         }
         std::cout << "\n";
     }
+
+    ~Stack()
+    {
+        delete[] array;
+    }
 };
 
 int main()

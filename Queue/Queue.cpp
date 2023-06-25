@@ -29,12 +29,16 @@ public:
 
     void enqueue(T value)
     {
+        if (size > 0 && size % 3 == 0)
+        {
+            this->resize();
+        }
         array[size++] = value;
     }
 
     void dequeue()
     {
-        if (size != 0)
+        if (!isEmpty())
         {
             --size;
 
@@ -47,7 +51,7 @@ public:
 
     T& front()
     {
-        if (size == 0)
+        if (isEmpty())
         {
             throw std::invalid_argument("");
         }
@@ -57,7 +61,7 @@ public:
 
     T& back()
     {
-        if (size == 0)
+        if (isEmpty())
         {
             throw std::invalid_argument("");
         }
@@ -68,6 +72,11 @@ public:
     bool isEmpty()
     {
         return size == 0;
+    }
+
+    ~Queue()
+    {
+        delete[] array;
     }
 };
 

@@ -14,6 +14,14 @@ struct Node
     Node(T val, Node* next) : value{ val }, next{ next }, prev{ nullptr }{}
 
     Node(T val, Node* next, Node* prev) : value{ val }, next{ next }, prev{ prev }{}
+
+    ~Node()
+    {
+        if (next != nullptr)
+        {
+            delete next;
+        }
+    }
 };
 
 template <typename T>
@@ -262,6 +270,14 @@ public:
         std::cout << "\n";
 
         if (temp != nullptr) { delete temp; }
+    }
+
+    ~List()
+    {
+        if (head != nullptr)
+        {
+            delete head;
+        }
     }
 };
 
