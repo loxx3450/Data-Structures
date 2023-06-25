@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue", "Queue\Queue.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Priority Queue", "Priority Queue\Priority Queue.vcxproj", "{E1A93B2A-BC8A-4527-869D-CC0382B05C7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Map", "Map\Map.vcxproj", "{66C8219E-D527-4189-9AA9-4DDE85765FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{E1A93B2A-BC8A-4527-869D-CC0382B05C7D}.Release|x64.Build.0 = Release|x64
 		{E1A93B2A-BC8A-4527-869D-CC0382B05C7D}.Release|x86.ActiveCfg = Release|Win32
 		{E1A93B2A-BC8A-4527-869D-CC0382B05C7D}.Release|x86.Build.0 = Release|Win32
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Debug|x64.ActiveCfg = Debug|x64
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Debug|x64.Build.0 = Debug|x64
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Debug|x86.Build.0 = Debug|Win32
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Release|x64.ActiveCfg = Release|x64
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Release|x64.Build.0 = Release|x64
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Release|x86.ActiveCfg = Release|Win32
+		{66C8219E-D527-4189-9AA9-4DDE85765FE5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
