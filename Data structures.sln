@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prefix Tree", "Prefix Tree\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVL Tree", "AVL Tree\AVL Tree.vcxproj", "{1B6C5EA7-70D5-49FC-9B4C-C54932552CC6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap", "Heap\Heap.vcxproj", "{292F3334-48C8-426A-904B-7146018D6550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{1B6C5EA7-70D5-49FC-9B4C-C54932552CC6}.Release|x64.Build.0 = Release|x64
 		{1B6C5EA7-70D5-49FC-9B4C-C54932552CC6}.Release|x86.ActiveCfg = Release|Win32
 		{1B6C5EA7-70D5-49FC-9B4C-C54932552CC6}.Release|x86.Build.0 = Release|Win32
+		{292F3334-48C8-426A-904B-7146018D6550}.Debug|x64.ActiveCfg = Debug|x64
+		{292F3334-48C8-426A-904B-7146018D6550}.Debug|x64.Build.0 = Debug|x64
+		{292F3334-48C8-426A-904B-7146018D6550}.Debug|x86.ActiveCfg = Debug|Win32
+		{292F3334-48C8-426A-904B-7146018D6550}.Debug|x86.Build.0 = Debug|Win32
+		{292F3334-48C8-426A-904B-7146018D6550}.Release|x64.ActiveCfg = Release|x64
+		{292F3334-48C8-426A-904B-7146018D6550}.Release|x64.Build.0 = Release|x64
+		{292F3334-48C8-426A-904B-7146018D6550}.Release|x86.ActiveCfg = Release|Win32
+		{292F3334-48C8-426A-904B-7146018D6550}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
